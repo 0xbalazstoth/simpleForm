@@ -74,13 +74,12 @@ form input[type="button"] {
     width: 100px;
     margin: 20px auto;
     text-align: center;
-    border-radius: 20px;
     border: none;
     outline: none;
     border: 2px solid rgb(44,62,80);
     background: transparent;
     color: white;
-    transition-duration: 0.6s;
+    transition-duration: 1s;
 }
 
 ::-webkit-input-placeholder {
@@ -119,4 +118,46 @@ form input[type="button"]:hover {
     -webkit-box-shadow: 0px 0px 4px gray;
     color: white;
     cursor: pointer;
+    border-radius: 20px;
+}
+
+#lost-password, #newbie {
+    color: white;
+    white-space: nowrap;
+}
+
+table {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+}
+
+td {
+    padding: 0px 5px 0px 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#button-lost, #button-newbie {
+    color: gray;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition-duration: 1s;
+    border: 2px solid rgb(44,62,80);
+}
+
+#button-lost:hover, #button-newbie:hover  {
+    background-color: rgb(44,62,80);
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    transition: 0.6s ease;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
 }
